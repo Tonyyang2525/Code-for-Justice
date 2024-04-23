@@ -1,0 +1,96 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+  }
+  
+  header{
+    position: sticky;
+    top: 0;
+    padding: 10%;
+    width: 100%;
+    background-color: green;
+  }
+  
+  navbar{
+    display: flex;
+    position: absolute;
+    height: 20px;
+    bottom: 10;
+    left: 0;
+    background-color: #7c3f00;
+    padding: 8%;
+    width: 100%;
+  
+  }
+  
+  
+  h2{
+    text-align: center;
+  }
+  
+  button{
+    display: block;
+    padding: 5px;
+    width: 20vw;
+    height: 3vh;
+    background-color: blue;
+    color:white;
+    margin: auto;
+  }
+  
+  form{
+    margin: auto;
+    margin-top: 5%;
+    width: 80vw;
+    padding: 20px;
+    text-align: center;
+    border: 3px solid #7c3f00;
+  }
+  
+  /*hidden until opened with ipad or larger screen */
+  navbar a {
+    justify-content: left;
+    position: relative;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 2%;
+    text-align: left;
+    margin-left: 0;
+  }
+  
+  #space{
+    margin-top: 15%;
+    margin-bottom: 0;
+    height: fit-content;
+  }
+  
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 10vh;
+    width: 100%;
+    padding: 10px;
+    background-color: green;
+    color: white;
+  }
+  
+  
+  /*media query for ipad or larger screen  481-768px */
+  @media (min-wdith: 481px) and (max-width: 768px){
+    navbar{
+  
+    }
+  }
+  
+  
+  
+  /* media query for laptops and computers 769-1024px */
+  
+  
+  
+  
+  /* media query for desktop 1025px and up*/
