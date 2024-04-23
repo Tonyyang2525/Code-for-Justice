@@ -1,0 +1,27 @@
+body {
+    margin: 10%;
+}
+
+h2 {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.p1 {
+    float: left;
+    width: 50%;
+}
+
+.ledImage {
+    justify-content: right;
+}
