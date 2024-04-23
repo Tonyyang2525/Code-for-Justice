@@ -1,0 +1,382 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+  }
+  
+  ul {
+    list-style: none;
+    display: inline-flex;
+    flex-direction: column;
+  }
+  ul li a {
+    text-decoration: none;
+    padding-right: 3vw;
+    color: white;
+  }
+  
+  
+  header{
+    background-color: green;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    position: sticky;
+    padding: 2vw;
+    text-align: center;
+  }
+  
+  #geoLogo {
+    position: absolute;
+    left: 5%;
+    top: 0vh;
+    width: 15%;
+  }
+  
+  #hamburger-nav {
+      display: flex;
+      justify-content: flex-end;
+      margin-right: 2%;
+    }
+  
+    .hamburger-menu {
+      position: relative;
+      display: inline-block;
+    }
+  
+    .hamburger-icon {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 24px;
+      margin-left: -55%;
+      width: 30px;
+      cursor: pointer;
+    }
+  
+    .hamburger-icon span {
+      width: 100%;
+      height: 2px;
+      background-color: black;
+      transition: all 0.3s ease-in-out;
+    }
+  
+    .menu-links {
+      position: absolute;
+      top: 100%;
+      right: 0;
+      background-color: white;
+      width: fit-content;
+      max-height: 0;
+      overflow: hidden;
+      transition: all 0.3s ease-in-out;
+    }
+  
+    .menu-links a {
+      display: block;
+      padding: 10px;
+      text-align: center;
+      font-size: .625rem;
+      color: black;
+      text-decoration: none;
+      transition: all 0.3 ease-in-out;
+    }
+    .menu-links li {
+      list-style: none;
+    }
+  
+    .menu-links.open {
+      max-height: 300px;
+    }
+  
+    .hamburger-icon.open span:first-child {
+      transform: rotate(45deg) translate(10px, 5px);
+    }
+  
+    .hamburger-icon.open span:nth-child(2) {
+      opacity: 0;
+    }
+  
+    .hamburger-icon.open span:last-child {
+      transform: rotate(-45deg) translate(10px, -5px);
+    }
+  
+    .hamburger-icon span :first-child {
+      transform: none;
+    }
+  
+    .hamburger-icon span :first-child {
+      opacity: 1;
+    }
+  
+    .hamburger-icon span :first-child {
+      transform: none;
+    }
+  
+  /*code for indivula div class images */
+  #recycling {
+    background-image: url(recycling-symbol-6335562-removebg-preview.png);
+    background-size: 40vw 30vh;
+  }
+  
+  #overview {
+    background-image: url(esg-environmental-social-governance-removebg-preview.png);
+    background-size: 40vw 30vh;
+  }
+  
+  #contact {
+    background-image: url(contact-us-icon-vector-communication-600nw-1729766848-removebg-preview.png);
+    background-size: 40vw 30vh;
+  }
+  
+  #about {
+    background-image: url(images-removebg-preview.png);
+    background-size: 40vw 30vh;
+  }
+  
+  /* code for nav bar and header elements */
+  
+  /*code for main body text */
+  .grid-container {
+    display: grid;
+    width: fit-content;
+    margin-top: 6%;
+    padding: 20px;
+  }
+  
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    grid-column-end: 1;
+    place-items: center;
+    width: 88vw;
+    height: 30vh;
+    margin-top: 3%;
+    margin: auto;
+    margin-bottom: 7%;
+    border: 3px solid brown;
+    border-radius: 15px;
+    background-size: contain;
+    /* Adjust background size to contain within the container */
+    background-position: center;
+    background-repeat: no-repeat;
+    /* Align the background image to the center */
+  }
+  
+  .container p {
+    margin-top: -7% ;
+    margin-left: 4%;
+    font-family: "Bebas Neue", sans-serif;
+    color: brown;
+    font-size: 20px;
+  }
+  
+  .container:hover {
+    box-shadow: 10px 10px lightblue;
+  }
+  
+  main{
+    display: inline-block;
+    border: 3px solid brown;
+    box-shadow: 5px 5px green;
+    width: 90vw;
+    height: 35vh;
+    border-radius: 15px;
+    line-height: 40px;
+    margin-left: 1%;
+    margin-bottom: 30%;
+    padding: 10px;
+    font-family: "Bebas Neue", sans-serif, ;
+    color: brown;
+    font-size: 13px;
+  }
+  
+  /*code for footer*/
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: green;
+    color: white;
+  }
+  
+  
+  
+  
+  /* media queries for Ipad and tablets*/
+  @media (min-width: 481px) and (max-width: 768px) {
+      .container {
+        display: flex;
+        flex-direction: column;
+        grid-column-end: 1;
+        place-items: center;
+        width: 88vw;
+        height: 30vh;
+        margin-top: 25%;
+        margin: auto;
+        margin-bottom: 7%;
+        border: 3px solid brown;
+        border-radius: 15px;
+        background-size: contain;
+        /* Adjust background size to contain within the container */
+        background-position: center;
+        background-repeat: no-repeat;
+        /* Align the background image to the center */
+      }
+  
+      .grid-container {
+        display: grid;
+        width: fit-content;
+        margin-top: 10%;
+        margin-left: 6%;
+        margin-bottom: -30%;
+        padding: 10px;
+      }
+  
+      main{
+        display: block;
+        border: 3px solid brown;
+        box-shadow: 5px 5px green;
+        width: 88vw;
+        height: 32vh;
+        border-radius: 15px;
+        line-height: 40px;
+        margin-bottom: 10%;
+        margin-left: 8%;
+        margin-top: 25%;
+        padding: 15px;
+        font-family: "Bebas Neue", sans-serif, ;
+        color: brown;
+        font-size: 22px;
+      }
+  
+      .container p {
+        margin-top: -6% ;
+        margin-left: 4%;
+        font-family: "Bebas Neue", sans-serif;
+        color: brown;
+        font-size: 20px;
+      }
+  
+  /*media queries for laptops */
+  @media (min-width: 769px) and (max-width: 1024px){
+    .container p {
+      margin-top: -4% ;
+      margin-left: 4%;
+      font-family: "Bebas Neue", sans-serif;
+      color: brown;
+      font-size: 20px;
+    }
+  
+    .container {
+      display: flex;
+      flex-direction: column;
+      grid-column-end: 1;
+      place-items: center;
+      width: 88vw;
+      height: 45vh;
+      margin-top: 5%;
+      margin: auto;
+      margin-bottom: 7%;
+      border: 3px solid brown;
+      border-radius: 15px;
+      background-size: contain;
+      /* Adjust background size to contain within the container */
+      background-position: center;
+      background-repeat: no-repeat;
+      /* Align the background image to the center */
+    }
+  
+    main{
+      display: block;
+      border: 3px solid brown;
+      box-shadow: 5px 5px #309130;
+      width: 88vw;
+      height: 40vh;
+      border-radius: 15px;
+      line-height: 40px;
+      margin: auto;
+      margin-top: 5%;
+      margin-bottom: 20%;
+      padding: 20px;
+      font-family: "Bebas Neue", sans-serif, ;
+      color: brown;
+      font-size: 28px;
+    }
+  
+    nav{
+    visibility: visible;
+    display: flex;
+    align-items: left;
+  
+    .grid-container {
+      display: grid;
+      width: fit-content;
+      margin-top: 40%;
+      padding: 50px;
+    }
+  }      
+  
+  
+  /*media queries for computers and desktop */
+  @media (min-width: 1025px){
+    .grid-container {
+      display: grid;
+      width: fit-content;
+      margin-top: 40%;
+      padding: 50px;
+    }
+  
+    .container {
+      display: flex;
+      flex-direction: column;
+      grid-column-end: 1;
+      place-items: center;
+      width: 85vw;
+      height: 45vh;
+      margin-top: 20%;
+      margin: auto;
+      margin-bottom: 3%;
+      border: 3px solid brown;
+      border-radius: 15px;
+      background-size: contain;
+      /* Adjust background size to contain within the container */
+      background-position: center;
+      background-repeat: no-repeat;
+      /* Align the background image to the center */
+    }
+  
+    main{
+      display: block;
+      border: 3px solid brown;
+      box-shadow: 5px 5px green;
+      width: 88vw;
+      height: 28vh;
+      border-radius: 15px;
+      line-height: 40px;
+      margin: auto;
+      margin-bottom: 15%;
+      padding: 20px;
+      font-family: "Bebas Neue", sans-serif, 30px;
+      color: brown;
+      font-size: 30px;
+    }
+  
+   .container p {
+        margin-top: -3% ;
+        margin-left: 4%;
+        font-family: "Bebas Neue", sans-serif;
+        color: brown;
+        font-size: 20px;
+      }
+  
+      nav{
+      visibility: visible;
+      display: flex;
+      align-items: left;
+    }   
+    }
+  }
