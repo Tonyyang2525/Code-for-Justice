@@ -28,8 +28,9 @@ p {
 #geoLogo {
   position: absolute;
   left: 2%;
-  top: -2.7%;
-  width: 25%;
+  top: -1.7%;
+  width: 35%;
+  height: 40%;
   z-index: 0;
 }
 
