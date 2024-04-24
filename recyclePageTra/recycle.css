@@ -12,6 +12,9 @@
     h1 {
         text-align: center;
     }
+    p {
+        margin-top: 20px;
+    }
 }
 
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
@@ -23,6 +26,9 @@
     h1 {
         text-align: center;
     }
+    p {
+        margin-top: 20px;
+    }
 }
 
 @media only screen and (min-width: 1025px) {
@@ -33,5 +39,8 @@
     }
     h1 {
         text-align: center;
+    }
+    p {
+        margin-top: 40px;
     }
 }
