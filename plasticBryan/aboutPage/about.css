@@ -20,18 +20,62 @@ header {
   text-align: center;
 }
 
+
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 50%;
+}
+
 p {
+  display: block;
   font-family: Arial, Helvetica, sans-serif;
   font-size: large;
+  max-width: 50%;
 }
 
 #geoLogo {
   position: absolute;
   left: 2%;
   top: -1.7%;
-  width: 35%;
-  height: 40%;
+  width: 25%;
+  height: 20%;
   z-index: 0;
+}
+
+#imgDiv1 {
+  position: absolute;
+  margin-left: 51vw;
+  margin-top: -35vw;
+}
+
+#img1 {
+  width: 64vh;
+  height: 29vw;
+  box-shadow: 2px 2px 11px 4px #00840f;
+  border-radius: 5px;
+}
+
+#imgDiv2 {
+  position: absolute;
+  margin-left: 51vw;
+  margin-top: -20vw;
+}
+
+#img2 {
+  width: 64vh;
+  height: 19vw;
+  box-shadow: 2px 2px 11px 4px #00840f;
+  border-radius: 5px;
+}
+
+
+.project, .website {
+  background-color: #f0a211c6;
+  box-shadow: 1vw 0.5vh rgba(1, 108, 16, 0.304);
+  border: 0.1vw solid #cdf907;
+  border-radius: 4.1vw;
+  padding: 2vw;
+  margin-bottom: 1vh;
 }
 
 ul {
@@ -54,3 +98,7 @@ ul li a {
   text-align: center;
   padding: 1vw;
 }
+
+
+
+
