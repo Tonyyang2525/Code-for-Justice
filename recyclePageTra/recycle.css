@@ -9,9 +9,11 @@
         max-width: 100%;
         height: auto;
     }
+
     h1 {
         text-align: center;
     }
+
     p {
         margin-top: 20px;
     }
@@ -23,9 +25,11 @@
         max-width: 80%;
         height: auto;
     }
+
     h1 {
         text-align: center;
     }
+
     p {
         margin-top: 20px;
     }
@@ -37,9 +41,11 @@
         max-width: 70%;
         height: auto;
     }
+
     h1 {
         text-align: center;
     }
+
     p {
         margin-top: 40px;
     }
