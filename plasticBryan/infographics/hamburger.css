@@ -10,8 +10,8 @@
   }
 
   .hamburger-menu {
-    position: relative;
-    display: inline-block;
+    display: flex;
+    flex-direction: row-reverse;
   }
 
   .hamburger-icon {
