@@ -17,12 +17,8 @@ body {
   
   
   header{
-    background-color: green;
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
-    position: sticky;
-    padding: 2vw;
+    background-color: #1c5508b0;
+    padding: 1.2vw;
     text-align: center;
   }
   
@@ -378,5 +374,4 @@ body {
       display: flex;
       align-items: left;
     }   
-    }
   }
