@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href='page2.css'>
-  <title>Document</title>
+  <link rel="stylesheet" href="page2.css">
+  <link rel="stylesheet" href="hamburger.css">
+  <link rel="icon" type="image/png" href="files/R2HLogo1.png">  <title>RV GEO Wild</title>
 </head>
 <body>
   <header>
@@ -26,57 +26,59 @@
       </div>
     </nav>
   </header>
-  <div id='space'>
-    <section id="donate">
-      <h2><u>Why donate to us</u></h2>
-      <p>R2H is a non profit organization that is not recieving government funding to allow us more flexibility to make decisions that will further benefit our environment.By donating you are furthering our advances at putting climate chage away and making this world a much better place.</p>
-    </section>
-    <form>
-      <h2><u>donation types</u></h2>
-      <label fname="firstName">Your first name</label>
-      <br>
-      <input type="text" id="firstname" minlength="3" maxlength="10" required/>
-      <br>
-      <label fname="lastName">Your Last name</label>
-      <br>
-      <input type="text" id="lastname" minlength="3" maxlength="10"></input>
-      <br>
-      <label for="donation">Choose your donation type?</label>
-      <br>
-      <select id="donation">
-          <option value="creditCard">Credit Card</option>
-          <option value="debitCard">Debit card</option>
-          <option value="zelle">zelle</option>
-          <option value="check">Check</option>
-      </select>
-      <br>
-      <label for="amount">Select your donation amount</label>
-      <br>
-      <input type="checkbox" value="amount">25$</input>
-      <br>
-      <input type="checkbox" value="amount">50$</input>
-      <br>
-      <input type="checkbox" value="amount">100$</input>
-      <br>
-      <label fname="number">Your card number</label>
-      <br>
-      <input type="number" value="cardnumber" minlength="4" maxlength="16" required/>
-      <br>
-      <label fname="number">Your CCV or security code</label>
-      <br>
-      <input type="number" value="cardnumber" max="3" required/>
-      <br>
-      <label fname="date">Expiration date</label>
-        <br>
-        <input type="number" value="cardnumber" maxlength="4" required/>
-    </form>
-    <br>
-    <button id="btn" type="redirect">submit</button>
-  </div>
-  <div class="qoute slideshow">
+  <!-- <div class="geoLogo">
 
-  </div>
+  </div>   -->
+  <main>
+    <section id="bio">
+      <h2>
+        Donation Page!
+        </h2>
+      <div class="project">
+        <h3 id="head1">Why Donate?</h3>
+        <p>Coming to this website is the first step in the pushing for the end of the climate crisis that we have on our hands.Alot of compmanies ask for donation but dont do much with them, but donating to R2H GEO WIld not helps us financially but it allows for the furthering of projects that will help us end the climate crisis once and for all</p>
+      </div>
+      <div class="project">
+        <h3>Feel free to fill out the donation Page</h3>
+        <div id="error"></div>
+        <form id="form" action="/" method="get">
+          <label for="fname">Enter your first name:</label>
+          <input type="text" class="input" name="firstName" placeholder="enter first name" required>
+          <br>
+          <br>
+          <label for="lname">Enter your last name:</label>
+          <input type="text" class="input" name="lastName" placeholder="enter last name" required>
+          <br>
+          <br>
+          <label for="phone">Enter Mobile Number:</label>
+          <input type="number" class="input" name="phone" placeholder="enter phone number" min="1111111111" max="9999999999"required="required" />
+          <br>
+          <br>
+          <label for="donation">Enter Donation number:</label>
+          <input type="number" class="input" name="donation" placeholder="enter donation amount" required="required">
+          <br>
+          <br>
+          <p>Form of payment</p>
+          <label for="payment">Credit Card</label>
+          <input type="radio" name="payment" value="credit card" class="input" required>
+          <br>
+          <label for="payment">Debit Card</label>
+          <input type="radio" name="payment" value="Debit card" class="input" required>
+          <br>
+          <label for="payment">Cash</label>
+           <input type="radio" name="payment" value="cash" class="input" required>
+          <br>
+          <label for="text">feed back or comments?</label>
+          <br>
+          <textarea name="comments" id="comments" cols="20" rows="3" maxlength="100"></textarea>
+          <br>
+          <button type="submit" id="button">submit</button>
+        </form>
+      </div>
+    </section>
   <footer>
+    <p>&copy; 2024 R2H GEO WILD</p>
   </footer>
+  <script src="script.js"></script>
 </body>
 </html>
