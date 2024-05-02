@@ -43,9 +43,7 @@ navbar {
   background-color: #7c3f00;
   padding: 8%;
   width: 100%;
-
 }
-
 
 /* 
 body {
@@ -123,7 +121,6 @@ ul li a {
   border-radius: 4.1vw;
   padding: 2vw;
   margin-bottom: 1vh;
-
 }
 
 .project a,
@@ -146,4 +143,16 @@ footer {
   color: #fff;
   text-align: center;
   padding: 1vw;
+}
+@media only screen and (max-width: 600px) {
+  /* #projects {
+    left: 2%;
+    top: -2.5%;
+    width: 42%;
+    height: 25%;
+  } */
+}
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+}
+@media only screen and (min-width: 900px) {
 }
